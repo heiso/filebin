@@ -1,0 +1,244 @@
+@import "compass";
+
+.logo {
+	margin-bottom: 50px;
+	h1 {
+		text-align: center;
+		font-size: 300%;
+		color: #404040;
+		display: block;
+		position: relative;
+		z-index: 100;
+		margin: 0;
+		font-weight: normal;
+	}
+	a,
+	a:hover,
+	a:link,
+	a:visited,
+	a:active {
+		color: #404040;
+		text-decoration: none;
+		text-shadow: 1px 1px 1px #ffffff;
+	}
+	.icon2-cloud {
+		color: white;
+	    font-size: 120px;
+	    left: 50%;
+	    margin-left: -20px;
+	    position: absolute;
+	    top: -10px;
+	}
+}
+
+.panel {
+	background-color: #222222;
+	-webkit-box-shadow: 1px 0 3px rgba(0, 0, 0, 0.25), inset -1px 0 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 0 3px rgba(0, 0, 0, 0.25), inset -1px 0 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 0 3px rgba(0, 0, 0, 0.25), inset -1px 0 0 rgba(0, 0, 0, 0.1);
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: -360px;
+    padding: 20px;
+    position: fixed;
+    z-index: 200;
+    color: #bfbfbf;
+    width: 310px;
+    .title {
+    	margin-top: 50px;
+    	.panel-icon {
+			font-size: 50px;
+			margin-left: -15px;
+		}
+    	p {
+    		font-size: 125%;
+    	}
+    }
+	textarea {
+		margin-top: 10px;
+		width: 300px;
+		background: black;
+		border: 0 none;
+		border-radius: 0;
+		color: #BFBFBF;
+		resize: none;
+		overflow: hidden;
+		&:focus {
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+			box-shadow: none;
+		}
+	}
+	.copy-all,
+	.copy-all:hover,
+	.copy-all:active,
+	.copy-all:link,
+	.copy-all:visited {
+		width: 300px;
+		margin-top: 10px;
+		background: #bfbfbf;
+		line-height: 20px;
+		display: block;
+		padding: 4px;
+		color: black;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		&:hover {
+			background: white;
+		}
+	}
+	.panel-close {
+		font-size: 40px;
+		position: absolute;
+		right: 0;
+		top: 10px;
+		&:hover {
+			color: white;
+			cursor: pointer;
+		}
+	}
+}
+
+.modal.link {
+	h1 {
+		margin: 20px 0;
+    	text-align: center; 
+	}
+	.modal-body {
+		text-align: center;
+	}
+}
+.modal.upload {
+	border-radius: 6px 6px 0 0;
+	h1 {
+    	font-size: 170%;
+	    line-height: 100%;
+	    margin: 15px 0;
+	    text-align: center;
+	}
+	.modal-body {
+		position: relative;
+	}
+	a.open-advanced,
+	a.open-advanced:hover,
+	a.open-advanced:link,
+	a.open-advanced:active,
+	a.open-advanced:visited {
+		color: #404040;
+		cursor: pointer;
+		font-size: 20px;
+		left: 5px;
+		position: absolute;
+		text-decoration: none;
+		top: 10px;
+		z-index: 20;
+		&.active {
+			color: #808080;
+		}
+		&:hover {
+			color: #808080;
+		}
+	}
+	.icon-upload {
+		font-size: 150px;
+		color: #808080;
+	}
+	.dropping {
+		background: #d0dfe9; 
+		.icon-upload {
+ 			color: #fff;
+ 		}
+	}
+	#plupload{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		display: block;
+		text-align: center;
+	}
+	table {
+		margin-bottom: 0;
+		width: 560px;
+		td {
+			line-height: 15px;
+		}
+		.select {
+			width: 50px;
+		}
+		td.action {
+			width: 100px;
+		}
+		a.icon,
+		a.icon:active,
+		a.icon:hover,
+		a.icon:visited,
+		a.icon:link {
+			text-decoration: none;
+			color: #404040;
+			display: inline-block;
+			font-size: 15px;
+			&:hover {
+				color: #0069D6;
+			}
+		}
+	}
+	.item:first-child td {
+		border-top: none;
+	}
+	.modal-footer {
+		padding: 0;
+	}
+}
+
+.advanced {
+	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+	background-color: #222222;
+	margin: -15px;
+	padding: 0 20px;
+	height: 0px;
+	overflow: hidden;
+	color: #BFBFBF;
+	label {
+		color: #bfbfbf;
+	}
+	.clearfix {
+		margin-bottom: 10px;
+	}
+	.input {
+		input {
+			background: black;
+			border: 0 none;
+			border-radius: 0;
+			color: #BFBFBF;
+			resize: none;
+			overflow: hidden;
+			&:focus {
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none;
+			}
+		}
+		span {
+			margin-left: 15px;
+		}
+	}
+	form {
+		margin: 0;
+	}
+	&.open {
+		height: auto;
+		padding: 20px 20px 10px 20px;
+	}
+}
+
+#ui-datepicker-div {
+	z-index: 1000 !important;
+}
+
+footer {
+	text-align: center;
+}

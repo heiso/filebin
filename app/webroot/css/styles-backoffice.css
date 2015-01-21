@@ -1,0 +1,143 @@
+/* line 3, ../sass/styles-backoffice.scss */
+#plupload {
+  margin-bottom: 15px;
+}
+/* line 5, ../sass/styles-backoffice.scss */
+#plupload #droparea {
+  display: block;
+  border: 4px dashed #DDD;
+  height: 200px;
+  text-align: center;
+}
+/* line 10, ../sass/styles-backoffice.scss */
+#plupload #droparea.dropping {
+  border-color: #83b4d8;
+}
+/* line 13, ../sass/styles-backoffice.scss */
+#plupload #droparea p {
+  color: #AAA;
+  font-size: 20px;
+  padding: 60px 0 0 0!important;
+  margin: 0;
+  font-weight: bold;
+}
+/* line 20, ../sass/styles-backoffice.scss */
+#plupload #droparea #browse {
+  border-color: #BBB;
+  text-decoration: none;
+  color: #464646!important;
+  border: solid 1px #DFDFDF;
+  background-color: white;
+  display: inline-block;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  font-size: 12px!important;
+  line-height: 13px;
+  padding: 3px 8px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+/* line 35, ../sass/styles-backoffice.scss */
+#plupload #droparea #browse:hover {
+  border-color: #BBB;
+  text-decoration: none!important;
+}
+
+/* line 43, ../sass/styles-backoffice.scss */
+#filelist {
+  clear: both;
+  margin-left: -20px;
+  margin-top: 50px;
+  width: 1000px;
+}
+/* line 49, ../sass/styles-backoffice.scss */
+#filelist .item .select {
+  width: 3px;
+  height: 100%;
+}
+/* line 53, ../sass/styles-backoffice.scss */
+#filelist .item.active .select {
+  background: green;
+}
+
+/* line 59, ../sass/styles-backoffice.scss */
+.sidebar {
+  margin-left: -20px;
+  overflow: hidden;
+  padding: 10px 30px;
+  position: absolute;
+  width: 940px;
+  z-index: 200;
+  background-color: #222;
+  background-color: #222222;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));
+  background-image: -moz-linear-gradient(top, #333333, #222222);
+  background-image: -ms-linear-gradient(top, #333333, #222222);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #222222));
+  background-image: -webkit-linear-gradient(top, #333333, #222222);
+  background-image: -o-linear-gradient(top, #333333, #222222);
+  background-image: linear-gradient(top, #333333, #222222);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 80, ../sass/styles-backoffice.scss */
+.sidebar a {
+  float: left;
+}
+/* line 83, ../sass/styles-backoffice.scss */
+.sidebar .count {
+  float: left;
+  line-height: 29px;
+  color: #bfbfbf;
+}
+/* line 88, ../sass/styles-backoffice.scss */
+.sidebar .sep {
+  border-right: 1px solid #ccc;
+  margin: 0 10px;
+  height: 29px;
+  width: 1px;
+  float: left;
+}
+/* line 95, ../sass/styles-backoffice.scss */
+.sidebar form {
+  float: left;
+  margin: 0;
+}
+/* line 98, ../sass/styles-backoffice.scss */
+.sidebar form label {
+  width: auto;
+  color: #fff;
+  margin-right: 10px;
+}
+/* line 103, ../sass/styles-backoffice.scss */
+.sidebar form .input {
+  margin: 0;
+  margin-right: 10px;
+  float: left;
+}
+/* line 107, ../sass/styles-backoffice.scss */
+.sidebar form .input select {
+  width: auto;
+}
+/* line 111, ../sass/styles-backoffice.scss */
+.sidebar form .submit {
+  float: left;
+}
+/* line 115, ../sass/styles-backoffice.scss */
+.sidebar .search {
+  float: left;
+}
+/* line 118, ../sass/styles-backoffice.scss */
+.sidebar.floatable {
+  position: fixed;
+  top: 40px;
+}
+
+/* line 124, ../sass/styles-backoffice.scss */
+footer {
+  text-align: center;
+}

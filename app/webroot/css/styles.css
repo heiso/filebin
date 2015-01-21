@@ -1,0 +1,299 @@
+/* line 3, ../sass/styles.scss */
+.logo {
+  margin-bottom: 50px;
+}
+/* line 5, ../sass/styles.scss */
+.logo h1 {
+  text-align: center;
+  font-size: 300%;
+  color: #404040;
+  display: block;
+  position: relative;
+  z-index: 100;
+  margin: 0;
+  font-weight: normal;
+}
+/* line 19, ../sass/styles.scss */
+.logo a,
+.logo a:hover,
+.logo a:link,
+.logo a:visited,
+.logo a:active {
+  color: #404040;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+/* line 24, ../sass/styles.scss */
+.logo .icon2-cloud {
+  color: white;
+  font-size: 120px;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  top: -10px;
+}
+
+/* line 34, ../sass/styles.scss */
+.panel {
+  background-color: #222222;
+  -webkit-box-shadow: 1px 0 3px rgba(0, 0, 0, 0.25), inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 0 3px rgba(0, 0, 0, 0.25), inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0 3px rgba(0, 0, 0, 0.25), inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: -360px;
+  padding: 20px;
+  position: fixed;
+  z-index: 200;
+  color: #bfbfbf;
+  width: 310px;
+}
+/* line 48, ../sass/styles.scss */
+.panel .title {
+  margin-top: 50px;
+}
+/* line 50, ../sass/styles.scss */
+.panel .title .panel-icon {
+  font-size: 50px;
+  margin-left: -15px;
+}
+/* line 54, ../sass/styles.scss */
+.panel .title p {
+  font-size: 125%;
+}
+/* line 58, ../sass/styles.scss */
+.panel textarea {
+  margin-top: 10px;
+  width: 300px;
+  background: black;
+  border: 0 none;
+  border-radius: 0;
+  color: #BFBFBF;
+  resize: none;
+  overflow: hidden;
+}
+/* line 67, ../sass/styles.scss */
+.panel textarea:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 77, ../sass/styles.scss */
+.panel .copy-all,
+.panel .copy-all:hover,
+.panel .copy-all:active,
+.panel .copy-all:link,
+.panel .copy-all:visited {
+  width: 300px;
+  margin-top: 10px;
+  background: #bfbfbf;
+  line-height: 20px;
+  display: block;
+  padding: 4px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 89, ../sass/styles.scss */
+.panel .copy-all:hover,
+.panel .copy-all:hover:hover,
+.panel .copy-all:active:hover,
+.panel .copy-all:link:hover,
+.panel .copy-all:visited:hover {
+  background: white;
+}
+/* line 93, ../sass/styles.scss */
+.panel .panel-close {
+  font-size: 40px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+/* line 98, ../sass/styles.scss */
+.panel .panel-close:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* line 106, ../sass/styles.scss */
+.modal.link h1 {
+  margin: 20px 0;
+  text-align: center;
+}
+/* line 110, ../sass/styles.scss */
+.modal.link .modal-body {
+  text-align: center;
+}
+
+/* line 114, ../sass/styles.scss */
+.modal.upload {
+  border-radius: 6px 6px 0 0;
+}
+/* line 116, ../sass/styles.scss */
+.modal.upload h1 {
+  font-size: 170%;
+  line-height: 100%;
+  margin: 15px 0;
+  text-align: center;
+}
+/* line 122, ../sass/styles.scss */
+.modal.upload .modal-body {
+  position: relative;
+}
+/* line 129, ../sass/styles.scss */
+.modal.upload a.open-advanced,
+.modal.upload a.open-advanced:hover,
+.modal.upload a.open-advanced:link,
+.modal.upload a.open-advanced:active,
+.modal.upload a.open-advanced:visited {
+  color: #404040;
+  cursor: pointer;
+  font-size: 20px;
+  left: 5px;
+  position: absolute;
+  text-decoration: none;
+  top: 10px;
+  z-index: 20;
+}
+/* line 138, ../sass/styles.scss */
+.modal.upload a.open-advanced.active,
+.modal.upload a.open-advanced:hover.active,
+.modal.upload a.open-advanced:link.active,
+.modal.upload a.open-advanced:active.active,
+.modal.upload a.open-advanced:visited.active {
+  color: #808080;
+}
+/* line 141, ../sass/styles.scss */
+.modal.upload a.open-advanced:hover,
+.modal.upload a.open-advanced:hover:hover,
+.modal.upload a.open-advanced:link:hover,
+.modal.upload a.open-advanced:active:hover,
+.modal.upload a.open-advanced:visited:hover {
+  color: #808080;
+}
+/* line 145, ../sass/styles.scss */
+.modal.upload .icon-upload {
+  font-size: 150px;
+  color: #808080;
+}
+/* line 149, ../sass/styles.scss */
+.modal.upload .dropping {
+  background: #d0dfe9;
+}
+/* line 151, ../sass/styles.scss */
+.modal.upload .dropping .icon-upload {
+  color: #fff;
+}
+/* line 155, ../sass/styles.scss */
+.modal.upload #plupload {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+/* line 161, ../sass/styles.scss */
+.modal.upload table {
+  margin-bottom: 0;
+  width: 560px;
+}
+/* line 164, ../sass/styles.scss */
+.modal.upload table td {
+  line-height: 15px;
+}
+/* line 167, ../sass/styles.scss */
+.modal.upload table .select {
+  width: 50px;
+}
+/* line 170, ../sass/styles.scss */
+.modal.upload table td.action {
+  width: 100px;
+}
+/* line 177, ../sass/styles.scss */
+.modal.upload table a.icon,
+.modal.upload table a.icon:active,
+.modal.upload table a.icon:hover,
+.modal.upload table a.icon:visited,
+.modal.upload table a.icon:link {
+  text-decoration: none;
+  color: #404040;
+  display: inline-block;
+  font-size: 15px;
+}
+/* line 182, ../sass/styles.scss */
+.modal.upload table a.icon:hover,
+.modal.upload table a.icon:active:hover,
+.modal.upload table a.icon:hover:hover,
+.modal.upload table a.icon:visited:hover,
+.modal.upload table a.icon:link:hover {
+  color: #0069D6;
+}
+/* line 187, ../sass/styles.scss */
+.modal.upload .item:first-child td {
+  border-top: none;
+}
+/* line 190, ../sass/styles.scss */
+.modal.upload .modal-footer {
+  padding: 0;
+}
+
+/* line 195, ../sass/styles.scss */
+.advanced {
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+  background-color: #222222;
+  margin: -15px;
+  padding: 0 20px;
+  height: 0px;
+  overflow: hidden;
+  color: #BFBFBF;
+}
+/* line 205, ../sass/styles.scss */
+.advanced label {
+  color: #bfbfbf;
+}
+/* line 208, ../sass/styles.scss */
+.advanced .clearfix {
+  margin-bottom: 10px;
+}
+/* line 212, ../sass/styles.scss */
+.advanced .input input {
+  background: black;
+  border: 0 none;
+  border-radius: 0;
+  color: #BFBFBF;
+  resize: none;
+  overflow: hidden;
+}
+/* line 219, ../sass/styles.scss */
+.advanced .input input:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 225, ../sass/styles.scss */
+.advanced .input span {
+  margin-left: 15px;
+}
+/* line 229, ../sass/styles.scss */
+.advanced form {
+  margin: 0;
+}
+/* line 232, ../sass/styles.scss */
+.advanced.open {
+  height: auto;
+  padding: 20px 20px 10px 20px;
+}
+
+/* line 238, ../sass/styles.scss */
+#ui-datepicker-div {
+  z-index: 1000 !important;
+}
+
+/* line 242, ../sass/styles.scss */
+footer {
+  text-align: center;
+}
